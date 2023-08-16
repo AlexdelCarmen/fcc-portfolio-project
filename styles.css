@@ -5,3 +5,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --dark-color1: #252b48;
+  --dark-color2: #272829;
+  --neutral-color: #F5F5F5; 
+  --accent-color: #FF6000;
+  --main-font: 'Poppins', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+}
+
