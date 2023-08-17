@@ -15,3 +15,39 @@
   --title-font: 'Raleway', sans-serif;
 }
 
+body {
+  color: var(--neutral-color);
+  background-color: var(--dark-color2);
+  font-family: var(--main-font);
+}
+
+#navbar {
+  position: fixed;
+  background-color: var(--accent-color);
+  min-width: 100svw;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.navlink {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 24px;
+}
+
+.navlink:hover {
+  background-color: var(--dark-color1);
+}
