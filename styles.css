@@ -66,9 +66,8 @@ a {
 
 #welcome-title {
   font-family: var(--title-font);
-  font-size: 42px;
+  font-size: 64px;
   font-weight: 500;
-  color: var(--accent-color);
 }
 
 #welcome-subtitle {
@@ -76,5 +75,70 @@ a {
   font-weight: 300;
   font-size: 30px;
   font-style: italic;
+  color: var(--accent-color);
+
 }
 
+#projects {
+  background-color: var(--dark-color1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  padding-top: 5%
+}
+
+#project-title {
+  font-family: var(--title-font);
+  font-size: 45px;
+  text-decoration: underline;
+}
+
+.project-img {
+  width: 95svw;
+  min-width: 300px;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+#projects-wrapper {
+  margin: 2rem 0;
+}
+
+.project-tile {
+  margin: 0 1.5rem;
+}
+
+.project-title {
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: var(--dark-color2);
+}
+
+.code {
+  color: var(--accent-color);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.project-tile:hover .code {
+  opacity: 1;
+}
+
+#profile-link {
+  padding: 1rem 1.6rem;
+  background-color: var(--dark-color2);
+  font-size: 21px;
+  transition: all 0.2s ease-in-out;
+}
+
+#profile-link:hover {
+  background-color: var(--accent-color);
+}
+
+#profile-link:hover i {
+  transform: translateX(50%);
+}
