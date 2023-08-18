@@ -179,3 +179,11 @@ a {
 .contact-link:hover{
   transform: translateY(8px);
 }
+
+footer {
+  border-top: 4px solid var(--accent-color);
+  padding: 1rem 0.8rem; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
